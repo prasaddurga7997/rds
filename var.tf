@@ -7,7 +7,14 @@ variable "block2" {
   default = "10.0.1.0/24"
   type = string
 }
-
+variable "block3" {
+  default = "10.0.4.0/24"
+  type = string
+}
+variable "block4" {
+  default = "10.0.3.0/24"
+  type = string
+}
 variable "region" {
   default = "eu-north-1a"
   type = string
